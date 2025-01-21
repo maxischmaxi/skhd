@@ -3,10 +3,10 @@ fn - k : yabai -m window --focus north
 fn - h : yabai -m window --focus west 
 fn - l : yabai -m window --focus east
 
-fn + alt - j : yabai -m window --swap south
-fn + alt - k : yabai -m window --swap north
-fn + alt - h : yabai -m window --swap west
-fn + alt - l : yabai -m window --swap east
+shift + fn - j : yabai -m window --swap south
+shift + fn - k : yabai -m window --swap north
+shift + fn - h : yabai -m window --swap west
+shift + fn - l : yabai -m window --swap east
 
 alt - s : yabai -m display --focus west
 alt - g : yabai -m display --focus east
