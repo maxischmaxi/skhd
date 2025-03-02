@@ -20,10 +20,3 @@ shift + fn - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
 
 shift + fn - m : yabai -m window --toggle zoom-fullscreen
 shift + fn - e : yabai -m space --balance
-
-shift + fn - 1 : yabai -m window --space 1;
-shift + fn - 2 : yabai -m window --space 2;
-shift + fn - 3 : yabai -m window --space 3;
-shift + fn - 4 : yabai -m window --space 4;
-shift + fn - 5 : yabai -m window --space 5;
-shift + fn - 6 : yabai -m window --space 6;
