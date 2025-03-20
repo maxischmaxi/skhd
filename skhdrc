@@ -1,7 +1,10 @@
 fn - j : yabai -m window --focus south || yabai -m display --focus south
 fn - k : yabai -m window --focus north || yabai -m display --focus north
-fn - h : yabai -m window --focus west || yabai -m display --focus west || yabai -m space --focus prev
-fn - l : yabai -m window --focus east || yabai -m display --focus east || yabai -m space --focus next
+fn - h : yabai -m window --focus west || yabai -m display --focus west
+fn - l : yabai -m window --focus east || yabai -m display --focus east
+
+fn - n : yabai -m space --focus next
+fn - p : yabai -m space --focus prev
 
 shift + fn - j : yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
 shift + fn - k : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
