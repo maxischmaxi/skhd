@@ -29,3 +29,4 @@ shift + ctrl - m : yabai -m window --toggle zoom-fullscreen
 shift + fn - m : yabai -m window --toggle zoom-fullscreen
 shift + fn - n : yabai -m space --balance
 
+fn - pageup : yabai --restart-service
