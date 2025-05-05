@@ -1,6 +1,5 @@
 shift + ctrl - p : yabai -m space --focus prev
 shift + ctrl - n : yabai -m space --focus next
-
 fn - n : yabai -m space --focus next
 fn - p : yabai -m space --focus prev 
 
@@ -27,6 +26,6 @@ shift + ctrl - h : yabai -m window --swap west || $(yabai -m window --display we
 shift + ctrl - l : yabai -m window --swap east || $(yabai -m window --display east; yabai -m window --focus east) || yabai -m window --space next
 
 shift + ctrl - m : yabai -m window --toggle zoom-fullscreen
-shift + ctrl - n : yabai -m space --balance
 shift + fn - m : yabai -m window --toggle zoom-fullscreen
 shift + fn - n : yabai -m space --balance
+
