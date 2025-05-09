@@ -1,7 +1,12 @@
 shift + ctrl - p : yabai -m space --focus prev
 shift + ctrl - n : yabai -m space --focus next
-fn - n : yabai -m space --focus next
-fn - p : yabai -m space --focus prev 
+shift + ctrl - m : yabai -m window --toggle zoom-fullscreen
+shift + ctrl - n : yabai -m space --balance
+
+shift + ctrl - j : yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
+shift + ctrl - k : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
+shift + ctrl - h : yabai -m window --swap west || $(yabai -m window --display west; yabai -m window --focus west) || yabai -m window --space prev
+shift + ctrl - l : yabai -m window --swap east || $(yabai -m window --display east; yabai -m window --focus east) || yabai -m window --space next
 
 ctrl - l [
     *           : yabai -m window --focus east || yabai -m display --focus east
@@ -19,14 +24,3 @@ ctrl - k [
     *           : yabai -m window --focus north || yabai -m display --focus north
     "Ghostty"   ~
 ]
-
-shift + ctrl - j : yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
-shift + ctrl - k : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
-shift + ctrl - h : yabai -m window --swap west || $(yabai -m window --display west; yabai -m window --focus west) || yabai -m window --space prev
-shift + ctrl - l : yabai -m window --swap east || $(yabai -m window --display east; yabai -m window --focus east) || yabai -m window --space next
-
-shift + ctrl - m : yabai -m window --toggle zoom-fullscreen
-shift + fn - m : yabai -m window --toggle zoom-fullscreen
-shift + fn - n : yabai -m space --balance
-
-fn - pageup : yabai --restart-service
