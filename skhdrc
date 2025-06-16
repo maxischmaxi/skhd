@@ -40,3 +40,6 @@ shift + fn - j : yabai -m window --swap south || $(yabai -m window --display sou
 shift + fn - k : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
 shift + fn - h : yabai -m window --swap west || $(yabai -m window --display west; yabai -m window --focus west) || yabai -m window --space prev
 shift + fn - l : yabai -m window --swap east || $(yabai -m window --display east; yabai -m window --focus east) || yabai -m window --space next
+
+fn + ctrl - a : ~/.config/yabai/scripts/widescreen-attached.sh
+fn + ctrl - d : ~/.config/yabai/scripts/widescreen-detached.sh
