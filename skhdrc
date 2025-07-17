@@ -29,7 +29,7 @@ fn - p : yabai -m space --focus prev
 fn - n : yabai -m space --focus next
 shift + ctrl - m : yabai -m window --toggle zoom-fullscreen
 shift + fn - m : yabai -m window --toggle zoom-fullscreen
-shift + ctrl - n : yabai -m space --balance
+shift + ctrl - i : yabai -m space --balance
 shift + fn - n : yabai -m space --balance
 
 shift + ctrl - j : yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
